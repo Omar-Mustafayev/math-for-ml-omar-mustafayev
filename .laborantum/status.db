@@ -4,21 +4,21 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 50,
-                "correct": 2.375
+                "correct": 3.375
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/config.yml",
             "status": {
                 "total": 50,
-                "correct": 2.375
+                "correct": 3.375
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/config.yml",
             "status": {
                 "total": 33,
-                "correct": 2.375
+                "correct": 3.375
             }
         },
         {
@@ -160,12 +160,13 @@
             "path": "/texts/course/1. Linear Algebra/1. Vectors/4. Scaling Quiz/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0.8571428571428571,
+                "correct": 1,
                 "selectedVariantIds": [
                     4,
                     6,
                     2,
-                    1
+                    1,
+                    3
                 ]
             }
         },
