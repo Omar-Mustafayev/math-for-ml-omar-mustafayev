@@ -4,21 +4,21 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 50,
-                "correct": 6.333333333333333
+                "correct": 8
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/config.yml",
             "status": {
                 "total": 50,
-                "correct": 6.333333333333333
+                "correct": 8
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/config.yml",
             "status": {
                 "total": 33,
-                "correct": 6.333333333333333
+                "correct": 8
             }
         },
         {
@@ -203,14 +203,14 @@
             "path": "/texts/course/1. Linear Algebra/1. Vectors/8. Orthonormalisation Quiz/config.yml",
             "status": {
                 "total": 2,
-                "correct": 0.3333333333333333,
+                "correct": 2,
                 "selectedVariantIds": [
-                    1,
-                    5,
                     0,
-                    3,
+                    1,
                     2,
-                    4
+                    3,
+                    4,
+                    5
                 ]
             }
         },
