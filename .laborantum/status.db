@@ -4,7 +4,7 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 136,
-                "correct": 40.5
+                "correct": 53.16666666666667
             }
         },
         {
@@ -32,7 +32,7 @@
             "path": "/texts/course/2. Calculus/config.yml",
             "status": {
                 "total": 73,
-                "correct": 15
+                "correct": 27.666666666666668
             }
         },
         {
@@ -46,7 +46,7 @@
             "path": "/texts/course/2. Calculus/2. Integrals/config.yml",
             "status": {
                 "total": 25,
-                "correct": 10
+                "correct": 22.666666666666668
             }
         },
         {
@@ -245,27 +245,199 @@
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/9. Numpy Practice/config.yml",
             "status": {
-                "total": 15,
                 "correct": 0,
-                "testStatus": [],
-                "error": [
-                    "Traceback (most recent call last):",
-                    "  File \"/workspaces/math-foundations-for-ml-course/.laborantum/utils/checker.py\", line 245, in <module>",
-                    "    check_json(args.task)",
-                    "  File \"/workspaces/math-foundations-for-ml-course/.laborantum/utils/checker.py\", line 209, in check_json",
-                    "    report = run_checks(student_state, teacher_state, test_info='root')",
-                    "             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
-                    "  File \"/workspaces/math-foundations-for-ml-course/.laborantum/utils/checker.py\", line 49, in run_checks",
-                    "    report.extend(run_checks(new_recieved, new_expected, test_info_new))",
-                    "                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
-                    "  File \"/workspaces/math-foundations-for-ml-course/.laborantum/utils/checker.py\", line 74, in run_checks",
-                    "    one_check = run_checks(new_recieved, new_expected, test_info_new)",
-                    "                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
-                    "  File \"/workspaces/math-foundations-for-ml-course/.laborantum/utils/checker.py\", line 114, in run_checks",
-                    "    if recieved.dtype != expected.dtype:",
-                    "       ^^^^^^^^^^^^^^",
-                    "AttributeError: 'list' object has no attribute 'dtype'",
-                    ""
+                "total": 15,
+                "testStatus": [
+                    {
+                        "name": "root -> vectors -> 0",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> vectors -> 1",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> vectors -> 2",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> vectors -> 3",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> slices -> 0",
+                        "ok": false,
+                        "status": "FAILED: The answer is not found or is of incorrect Type"
+                    },
+                    {
+                        "name": "root -> slices -> 1",
+                        "ok": false,
+                        "status": "FAILED: The answer is not found or is of incorrect Type"
+                    },
+                    {
+                        "name": "root -> slices -> 2",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> slices -> 3",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> slices -> 4",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> slices -> 5",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 0",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 1",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 2",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 3",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 4",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 5",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 6",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> shapes -> 0 -> 0",
+                        "ok": false,
+                        "status": "FAILED: The answer is not found or is of incorrect Type"
+                    },
+                    {
+                        "name": "root -> shapes -> 1 -> 0",
+                        "ok": false,
+                        "status": "FAILED: The answer is not found or is of incorrect Type"
+                    },
+                    {
+                        "name": "root -> shapes -> 2 -> 0",
+                        "ok": false,
+                        "status": "FAILED: The answer is not found or is of incorrect Type"
+                    },
+                    {
+                        "name": "root -> shapes -> 3 -> 0",
+                        "ok": false,
+                        "status": "FAILED: The answer is not found or is of incorrect Type"
+                    },
+                    {
+                        "name": "root -> reshaped -> 0",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> sliced_reshaped -> 0",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> sliced_reshaped -> 1",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> sliced_reshaped -> 2",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> sliced_reshaped -> 3",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> bool -> 0",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> bool -> 1",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> bool -> 2",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> bool -> 3",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> lovely -> 0",
+                        "ok": false,
+                        "status": "FAILED: String is expected"
+                    },
+                    {
+                        "name": "root -> lovely -> 1",
+                        "ok": false,
+                        "status": "FAILED: String is expected"
+                    },
+                    {
+                        "name": "root -> lovely -> 2",
+                        "ok": false,
+                        "status": "FAILED: String is expected"
+                    },
+                    {
+                        "name": "root -> lovely -> 3",
+                        "ok": false,
+                        "status": "FAILED: String is expected"
+                    },
+                    {
+                        "name": "root -> expression -> 0",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> expression -> 1",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> expression -> 2",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    },
+                    {
+                        "name": "root -> expression -> 3",
+                        "ok": false,
+                        "status": "FAILED. Item is not found"
+                    }
                 ]
             }
         },
@@ -2606,7 +2778,7 @@
         {
             "path": "/texts/course/2. Calculus/2. Integrals/6. Integrals Practice/config.yml",
             "status": {
-                "correct": 6,
+                "correct": 18.666666666666668,
                 "total": 20,
                 "testStatus": [
                     {
@@ -2621,8 +2793,8 @@
                     },
                     {
                         "name": "root -> integrals -> 2",
-                        "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.36424164293121636"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> integrals -> 3",
@@ -2661,103 +2833,103 @@
                     },
                     {
                         "name": "root -> squares -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 111.42222222222222,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> squares -> 1",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 2524.316780978509,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> squares -> 2",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.658713766282851,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> squares -> 3",
                         "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 15921041563.925516,'\n                    that is larger than eps (0.0001)"
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.00014495849609375,'\n                    that is larger than eps (0.0001)"
                     },
                     {
                         "name": "root -> squares -> 4",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 12.694294504102755,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> squares -> 5",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.154426253900134,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> squares -> 6",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 82.56978675137077,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> squares -> 7",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 527.7813849111593,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> squares -> 8",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 47.80500701555062,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> squares -> 9",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 3.787179360122768,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> trapezoids -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 111.42222222222222,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> trapezoids -> 1",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 2524.316780978509,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> trapezoids -> 2",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.658713766282851,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> trapezoids -> 3",
                         "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 15921041563.925516,'\n                    that is larger than eps (0.0001)"
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.00014495849609375,'\n                    that is larger than eps (0.0001)"
                     },
                     {
                         "name": "root -> trapezoids -> 4",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 12.694294504102755,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> trapezoids -> 5",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.154426253900134,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> trapezoids -> 6",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 82.56978675137077,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> trapezoids -> 7",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 527.7813849111593,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> trapezoids -> 8",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 47.80500701555062,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> trapezoids -> 9",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 3.787179360122768,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     }
                 ]
             }
