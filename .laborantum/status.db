@@ -4,21 +4,21 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 136,
-                "correct": 17.80681818181818
+                "correct": 40.5
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/config.yml",
             "status": {
                 "total": 50,
-                "correct": 15
+                "correct": 22.5
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/config.yml",
             "status": {
                 "total": 33,
-                "correct": 8
+                "correct": 15.5
             }
         },
         {
@@ -32,28 +32,28 @@
             "path": "/texts/course/2. Calculus/config.yml",
             "status": {
                 "total": 73,
-                "correct": 2.8068181818181817
+                "correct": 15
             }
         },
         {
             "path": "/texts/course/2. Calculus/1. Derivatives/config.yml",
             "status": {
                 "total": 48,
-                "correct": 2.8068181818181817
+                "correct": 5
             }
         },
         {
             "path": "/texts/course/2. Calculus/2. Integrals/config.yml",
             "status": {
                 "total": 25,
-                "correct": 0
+                "correct": 10
             }
         },
         {
             "path": "/texts/course/3. Probability and Statistics/config.yml",
             "status": {
                 "total": 13,
-                "correct": 0
+                "correct": 3
             }
         }
     ],
@@ -245,17 +245,2057 @@
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/9. Numpy Practice/config.yml",
             "status": {
-                "total": 1,
+                "total": 15,
                 "correct": 0,
-                "selectedVariantIds": []
+                "testStatus": [],
+                "error": [
+                    "Traceback (most recent call last):",
+                    "  File \"/workspaces/math-foundations-for-ml-course/.laborantum/utils/checker.py\", line 245, in <module>",
+                    "    check_json(args.task)",
+                    "  File \"/workspaces/math-foundations-for-ml-course/.laborantum/utils/checker.py\", line 209, in check_json",
+                    "    report = run_checks(student_state, teacher_state, test_info='root')",
+                    "             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+                    "  File \"/workspaces/math-foundations-for-ml-course/.laborantum/utils/checker.py\", line 49, in run_checks",
+                    "    report.extend(run_checks(new_recieved, new_expected, test_info_new))",
+                    "                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+                    "  File \"/workspaces/math-foundations-for-ml-course/.laborantum/utils/checker.py\", line 74, in run_checks",
+                    "    one_check = run_checks(new_recieved, new_expected, test_info_new)",
+                    "                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+                    "  File \"/workspaces/math-foundations-for-ml-course/.laborantum/utils/checker.py\", line 114, in run_checks",
+                    "    if recieved.dtype != expected.dtype:",
+                    "       ^^^^^^^^^^^^^^",
+                    "AttributeError: 'list' object has no attribute 'dtype'",
+                    ""
+                ]
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/10. Vectors Practice/config.yml",
             "status": {
-                "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 7.5,
+                "total": 10,
+                "testStatus": [
+                    {
+                        "name": "root -> lengths -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 6",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 7",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 8",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 9",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 10",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 11",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 12",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 13",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 14",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 15",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 16",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 17",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 18",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 19",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 20",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 21",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 22",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 23",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 24",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 25",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 26",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 27",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 28",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 29",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 30",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 31",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 32",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 33",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 34",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 35",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 36",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 37",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 38",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 39",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 40",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 41",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 42",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 43",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 44",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 45",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 46",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 47",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 48",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 49",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 50",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 51",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 52",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 53",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 54",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 55",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 56",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 57",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 58",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 59",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 60",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 61",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 62",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 63",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 64",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 65",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 66",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 67",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 68",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 69",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 70",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 71",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 72",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 73",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 74",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 75",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 76",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 77",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 78",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 79",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 80",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 81",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 82",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 83",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 84",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 85",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 86",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 87",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 88",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 89",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 90",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 91",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 92",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 93",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 94",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 95",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 96",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 97",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 98",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 99",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lengths -> 100",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 6",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 7",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 8",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 9",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 10",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 11",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 12",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 13",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 14",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 15",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 16",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 17",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 18",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 19",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 20",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 21",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 22",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 23",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 24",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 25",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 26",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 27",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 28",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 29",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 30",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 31",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 32",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 33",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 34",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 35",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 36",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 37",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 38",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 39",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 40",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 41",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 42",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 43",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 44",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 45",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 46",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 47",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 48",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 49",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 50",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 51",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 52",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 53",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 54",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 55",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 56",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 57",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 58",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 59",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 60",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 61",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 62",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 63",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 64",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 65",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 66",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 67",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 68",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 69",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 70",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 71",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 72",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 73",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 74",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 75",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 76",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 77",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 78",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 79",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 80",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 81",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 82",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 83",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 84",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 85",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 86",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 87",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 88",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 89",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 90",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 91",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 92",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 93",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 94",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 95",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 96",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 97",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 98",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 99",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> directions -> 100",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 6",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 7",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 8",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 9",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 10",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 11",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 12",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 13",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 14",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 15",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 16",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 17",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 18",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 19",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 20",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 21",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 22",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 23",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 24",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 25",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 26",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 27",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 28",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 29",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 30",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 31",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 32",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 33",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 34",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 35",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 36",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 37",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 38",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 39",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 40",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 41",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 42",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 43",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 44",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 45",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 46",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 47",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 48",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 49",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 50",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 51",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 52",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 53",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 54",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 55",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 56",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 57",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 58",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 59",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 60",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 61",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 62",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 63",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 64",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 65",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 66",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 67",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 68",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 69",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 70",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 71",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 72",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 73",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 74",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 75",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 76",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 77",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 78",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 79",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 80",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 81",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 82",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 83",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 84",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 85",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 86",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 87",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 88",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 89",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 90",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 91",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 92",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 93",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 94",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 95",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 96",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 97",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 98",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 99",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> cosine -> 100",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 0",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.78446454"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 1",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.47315612"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 2",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.32773092"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 3",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.5055865"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 4",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.3067631"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 5",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.35026515"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 6",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.3689943"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 7",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.48656267"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 8",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.46229684"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 9",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.5501561"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 10",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.5039523"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 11",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.45241323"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 12",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.4472603"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 13",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.38576862"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 14",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.38497284"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 15",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.35066235"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 16",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.31232166"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 17",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.40699106"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 18",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.41989908"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 19",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.6457161"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 20",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.35191917"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 21",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.66059643"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 22",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.78689325"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 23",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.34594426"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 24",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.349641"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 25",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.38392392"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 26",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.75560963"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 27",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.581032"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 28",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.44763434"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 29",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.47828045"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 30",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.333441"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 31",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.37699535"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 32",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.40198955"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 33",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.45572013"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 34",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.40661833"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 35",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.48653412"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 36",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.5511685"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 37",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.350201"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 38",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.501761"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 39",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.3766472"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 40",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.4529942"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 41",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.53062576"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 42",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.47143316"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 43",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.61691594"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 44",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.5588819"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 45",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.34296137"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 46",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.5343232"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 47",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.35570455"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 48",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.47456065"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 49",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.4276433"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 50",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.43775418"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 51",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.6076109"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 52",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.5586762"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 53",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.7071068"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 54",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.5525664"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 55",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.3206985"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 56",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.33043557"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 57",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.40903714"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 58",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.6129057"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 59",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.70710677"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 60",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.5000433"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 61",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.37348685"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 62",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.41312158"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 63",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.34712297"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 64",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.34778035"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 65",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.63475484"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 66",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.32396236"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 67",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.41512218"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 68",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.7844645"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 69",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.33217752"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 70",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.5342422"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 71",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.35297984"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 72",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.6430008"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 73",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.6268168"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 74",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.35507205"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 75",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.67704815"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 76",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.39299232"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 77",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.41059223"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 78",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.54076505"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 79",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.54504704"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 80",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.75"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 81",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.55151254"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 82",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.593886"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 83",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.38391355"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 84",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.50736934"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 85",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.35654905"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 86",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.3609777"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 87",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.5844541"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 88",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.48619708"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 89",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.6580784"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 90",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.5052266"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 91",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.49251455"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 92",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.39570796"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 93",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.4415828"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 94",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.61817783"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 95",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.3880486"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 96",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.37927634"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 97",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.5444045"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 98",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.25"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 99",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.7900278"
+                    },
+                    {
+                        "name": "root -> orthonormal -> 100",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.36632332"
+                    }
+                ]
             }
         },
         {
@@ -397,18 +2437,18 @@
             "path": "/texts/course/2. Calculus/1. Derivatives/3. Deriving Derivatives lvl 2/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0.18181818181818182,
+                "correct": 1,
                 "selectedVariantIds": [
                     0,
-                    3,
-                    4,
-                    9,
-                    6,
-                    7,
                     1,
                     2,
+                    3,
+                    4,
                     5,
+                    6,
+                    7,
                     8,
+                    9,
                     10
                 ]
             }
@@ -417,13 +2457,13 @@
             "path": "/texts/course/2. Calculus/1. Derivatives/4. Deriving derivatives lvl 3/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0.625,
+                "correct": 1,
                 "selectedVariantIds": [
                     0,
                     1,
+                    2,
                     3,
                     4,
-                    2,
                     5,
                     6,
                     7
@@ -434,16 +2474,28 @@
             "path": "/texts/course/2. Calculus/1. Derivatives/5. Deriving Derivatives lvl 4/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
             }
         },
         {
             "path": "/texts/course/2. Calculus/1. Derivatives/9. Derivatives Practice/config.yml",
             "status": {
-                "total": 1,
+                "total": 30,
                 "correct": 0,
-                "selectedVariantIds": []
+                "testStatus": [],
+                "error": "[NbClientApp] Executing .laborantum/texts/course/2. Calculus/1. Derivatives/9. Derivatives Practice/task.ipynb\n[NbClientApp] Executing notebook with kernel: python3\nTraceback (most recent call last):\n  File \"/usr/local/bin/jupyter-execute\", line 8, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/application.py\", line 283, in launch_instance\n    super().launch_instance(argv=argv, **kwargs)\n  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 1074, in launch_instance\n    app.initialize(argv)\n  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 118, in inner\n    return method(app, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 161, in initialize\n    self.run_notebook(path)\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 215, in run_notebook\n    client.execute()\n  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/utils/__init__.py\", line 165, in wrapped\n    return loop.run_until_complete(inner)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/asyncio/base_events.py\", line 654, in run_until_complete\n    return future.result()\n           ^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 709, in async_execute\n    await self.async_execute_cell(\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 1062, in async_execute_cell\n    await self._check_raise_for_error(cell, cell_index, exec_reply)\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 918, in _check_raise_for_error\n    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)\nnbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:\n------------------\nxs = np.linspace(\n    -2*np.pi, \n    2*np.pi, \n    1000 # you can change this value. Check 100, 200, 500, 1000\n)\n\nanswer['1D'] = {}\n\nplt.figure(figsize=(96, 24))\nindex = 0\nfor f, df, ddf in zip(fs, dfs, ddfs):\n    index += 1\n    df_x = df(xs)\n    ddf_x = ddf(xs)\n\n    df_x_approx = finite_differences(f(xs), xs)\n    ddf_x_approx = finite_differences(df_x_approx, xs[:-1])\n    \n    answer['1D']['d' + str(index)] = df_x[~np.isnan(df_x)]\n    answer['1D']['dd' + str(index)] = ddf_x[~np.isnan(ddf_x)]\n\n    answer['1D']['d' + str(index) + '_approx'] = df_x_approx[~np.isnan(df_x_approx)]\n    answer['1D']['dd' + str(index) + '_approx'] = ddf_x_approx[~np.isnan(ddf_x_approx)]\n    \n\n    plt.subplot(3, 8, index)\n    plt.plot(xs, f(xs), 'o')\n    plt.legend(['Analytical'])\n    plt.grid()\n    plt.title(str(index))\n\n    plt.subplot(3, 8, 8 + index)\n    plt.plot(xs, df_x, 'o')\n    plt.plot(xs[:-1], df_x_approx, 'o')\n    plt.legend(['Analytical', 'Finite differences'])\n    plt.grid()\n    plt.title(str(index))\n\n\n    plt.subplot(3, 8, 16 + index)\n    plt.plot(xs, ddf_x, 'o')\n    plt.plot(xs[:-2], ddf_x_approx, 'o')\n    plt.legend(['Analytical', 'Finite differences'])\n    plt.grid()\n    plt.title(str(index))\n\n------------------\n\n\n\u001b[31m---------------------------------------------------------------------------\u001b[39m\n\u001b[31mValueError\u001b[39m                                Traceback (most recent call last)\n\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[7]\u001b[39m\u001b[32m, line 34\u001b[39m\n\u001b[32m     32\u001b[39m plt.subplot(\u001b[32m3\u001b[39m, \u001b[32m8\u001b[39m, \u001b[32m8\u001b[39m + index)\n\u001b[32m     33\u001b[39m plt.plot(xs, df_x, \u001b[33m'\u001b[39m\u001b[33mo\u001b[39m\u001b[33m'\u001b[39m)\n\u001b[32m---> \u001b[39m\u001b[32m34\u001b[39m \u001b[43mplt\u001b[49m\u001b[43m.\u001b[49m\u001b[43mplot\u001b[49m\u001b[43m(\u001b[49m\u001b[43mxs\u001b[49m\u001b[43m[\u001b[49m\u001b[43m:\u001b[49m\u001b[43m-\u001b[49m\u001b[32;43m1\u001b[39;49m\u001b[43m]\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43mdf_x_approx\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[33;43m'\u001b[39;49m\u001b[33;43mo\u001b[39;49m\u001b[33;43m'\u001b[39;49m\u001b[43m)\u001b[49m\n\u001b[32m     35\u001b[39m plt.legend([\u001b[33m'\u001b[39m\u001b[33mAnalytical\u001b[39m\u001b[33m'\u001b[39m, \u001b[33m'\u001b[39m\u001b[33mFinite differences\u001b[39m\u001b[33m'\u001b[39m])\n\u001b[32m     36\u001b[39m plt.grid()\n\n\u001b[36mFile \u001b[39m\u001b[32m/usr/local/lib/python3.11/site-packages/matplotlib/pyplot.py:3794\u001b[39m, in \u001b[36mplot\u001b[39m\u001b[34m(scalex, scaley, data, *args, **kwargs)\u001b[39m\n\u001b[32m   3786\u001b[39m \u001b[38;5;129m@_copy_docstring_and_deprecators\u001b[39m(Axes.plot)\n\u001b[32m   3787\u001b[39m \u001b[38;5;28;01mdef\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[34mplot\u001b[39m(\n\u001b[32m   3788\u001b[39m     *args: \u001b[38;5;28mfloat\u001b[39m | ArrayLike | \u001b[38;5;28mstr\u001b[39m,\n\u001b[32m   (...)\u001b[39m\u001b[32m   3792\u001b[39m     **kwargs,\n\u001b[32m   3793\u001b[39m ) -> \u001b[38;5;28mlist\u001b[39m[Line2D]:\n\u001b[32m-> \u001b[39m\u001b[32m3794\u001b[39m     \u001b[38;5;28;01mreturn\u001b[39;00m \u001b[43mgca\u001b[49m\u001b[43m(\u001b[49m\u001b[43m)\u001b[49m\u001b[43m.\u001b[49m\u001b[43mplot\u001b[49m\u001b[43m(\u001b[49m\n\u001b[32m   3795\u001b[39m \u001b[43m        \u001b[49m\u001b[43m*\u001b[49m\u001b[43margs\u001b[49m\u001b[43m,\u001b[49m\n\u001b[32m   3796\u001b[39m \u001b[43m        \u001b[49m\u001b[43mscalex\u001b[49m\u001b[43m=\u001b[49m\u001b[43mscalex\u001b[49m\u001b[43m,\u001b[49m\n\u001b[32m   3797\u001b[39m \u001b[43m        \u001b[49m\u001b[43mscaley\u001b[49m\u001b[43m=\u001b[49m\u001b[43mscaley\u001b[49m\u001b[43m,\u001b[49m\n\u001b[32m   3798\u001b[39m \u001b[43m        \u001b[49m\u001b[43m*\u001b[49m\u001b[43m*\u001b[49m\u001b[43m(\u001b[49m\u001b[43m{\u001b[49m\u001b[33;43m\"\u001b[39;49m\u001b[33;43mdata\u001b[39;49m\u001b[33;43m\"\u001b[39;49m\u001b[43m:\u001b[49m\u001b[43m \u001b[49m\u001b[43mdata\u001b[49m\u001b[43m}\u001b[49m\u001b[43m \u001b[49m\u001b[38;5;28;43;01mif\u001b[39;49;00m\u001b[43m \u001b[49m\u001b[43mdata\u001b[49m\u001b[43m \u001b[49m\u001b[38;5;129;43;01mis\u001b[39;49;00m\u001b[43m \u001b[49m\u001b[38;5;129;43;01mnot\u001b[39;49;00m\u001b[43m \u001b[49m\u001b[38;5;28;43;01mNone\u001b[39;49;00m\u001b[43m \u001b[49m\u001b[38;5;28;43;01melse\u001b[39;49;00m\u001b[43m \u001b[49m\u001b[43m{\u001b[49m\u001b[43m}\u001b[49m\u001b[43m)\u001b[49m\u001b[43m,\u001b[49m\n\u001b[32m   3799\u001b[39m \u001b[43m        \u001b[49m\u001b[43m*\u001b[49m\u001b[43m*\u001b[49m\u001b[43mkwargs\u001b[49m\u001b[43m,\u001b[49m\n\u001b[32m   3800\u001b[39m \u001b[43m    \u001b[49m\u001b[43m)\u001b[49m\n\n\u001b[36mFile \u001b[39m\u001b[32m/usr/local/lib/python3.11/site-packages/matplotlib/axes/_axes.py:1779\u001b[39m, in \u001b[36mAxes.plot\u001b[39m\u001b[34m(self, scalex, scaley, data, *args, **kwargs)\u001b[39m\n\u001b[32m   1536\u001b[39m \u001b[38;5;250m\u001b[39m\u001b[33;03m\"\"\"\u001b[39;00m\n\u001b[32m   1537\u001b[39m \u001b[33;03mPlot y versus x as lines and/or markers.\u001b[39;00m\n\u001b[32m   1538\u001b[39m \n\u001b[32m   (...)\u001b[39m\u001b[32m   1776\u001b[39m \u001b[33;03m(``'green'``) or hex strings (``'#008000'``).\u001b[39;00m\n\u001b[32m   1777\u001b[39m \u001b[33;03m\"\"\"\u001b[39;00m\n\u001b[32m   1778\u001b[39m kwargs = cbook.normalize_kwargs(kwargs, mlines.Line2D)\n\u001b[32m-> \u001b[39m\u001b[32m1779\u001b[39m lines = [*\u001b[38;5;28mself\u001b[39m._get_lines(\u001b[38;5;28mself\u001b[39m, *args, data=data, **kwargs)]\n\u001b[32m   1780\u001b[39m \u001b[38;5;28;01mfor\u001b[39;00m line \u001b[38;5;129;01min\u001b[39;00m lines:\n\u001b[32m   1781\u001b[39m     \u001b[38;5;28mself\u001b[39m.add_line(line)\n\n\u001b[36mFile \u001b[39m\u001b[32m/usr/local/lib/python3.11/site-packages/matplotlib/axes/_base.py:296\u001b[39m, in \u001b[36m_process_plot_var_args.__call__\u001b[39m\u001b[34m(self, axes, data, *args, **kwargs)\u001b[39m\n\u001b[32m    294\u001b[39m     this += args[\u001b[32m0\u001b[39m],\n\u001b[32m    295\u001b[39m     args = args[\u001b[32m1\u001b[39m:]\n\u001b[32m--> \u001b[39m\u001b[32m296\u001b[39m \u001b[38;5;28;01myield from\u001b[39;00m \u001b[38;5;28;43mself\u001b[39;49m\u001b[43m.\u001b[49m\u001b[43m_plot_args\u001b[49m\u001b[43m(\u001b[49m\n\u001b[32m    297\u001b[39m \u001b[43m    \u001b[49m\u001b[43maxes\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43mthis\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43mkwargs\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43mambiguous_fmt_datakey\u001b[49m\u001b[43m=\u001b[49m\u001b[43mambiguous_fmt_datakey\u001b[49m\u001b[43m)\u001b[49m\n\n\u001b[36mFile \u001b[39m\u001b[32m/usr/local/lib/python3.11/site-packages/matplotlib/axes/_base.py:486\u001b[39m, in \u001b[36m_process_plot_var_args._plot_args\u001b[39m\u001b[34m(self, axes, tup, kwargs, return_kwargs, ambiguous_fmt_datakey)\u001b[39m\n\u001b[32m    483\u001b[39m     axes.yaxis.update_units(y)\n\u001b[32m    485\u001b[39m \u001b[38;5;28;01mif\u001b[39;00m x.shape[\u001b[32m0\u001b[39m] != y.shape[\u001b[32m0\u001b[39m]:\n\u001b[32m--> \u001b[39m\u001b[32m486\u001b[39m     \u001b[38;5;28;01mraise\u001b[39;00m \u001b[38;5;167;01mValueError\u001b[39;00m(\u001b[33mf\u001b[39m\u001b[33m\"\u001b[39m\u001b[33mx and y must have same first dimension, but \u001b[39m\u001b[33m\"\u001b[39m\n\u001b[32m    487\u001b[39m                      \u001b[33mf\u001b[39m\u001b[33m\"\u001b[39m\u001b[33mhave shapes \u001b[39m\u001b[38;5;132;01m{\u001b[39;00mx.shape\u001b[38;5;132;01m}\u001b[39;00m\u001b[33m and \u001b[39m\u001b[38;5;132;01m{\u001b[39;00my.shape\u001b[38;5;132;01m}\u001b[39;00m\u001b[33m\"\u001b[39m)\n\u001b[32m    488\u001b[39m \u001b[38;5;28;01mif\u001b[39;00m x.ndim > \u001b[32m2\u001b[39m \u001b[38;5;129;01mor\u001b[39;00m y.ndim > \u001b[32m2\u001b[39m:\n\u001b[32m    489\u001b[39m     \u001b[38;5;28;01mraise\u001b[39;00m \u001b[38;5;167;01mValueError\u001b[39;00m(\u001b[33mf\u001b[39m\u001b[33m\"\u001b[39m\u001b[33mx and y can be no greater than 2D, but have \u001b[39m\u001b[33m\"\u001b[39m\n\u001b[32m    490\u001b[39m                      \u001b[33mf\u001b[39m\u001b[33m\"\u001b[39m\u001b[33mshapes \u001b[39m\u001b[38;5;132;01m{\u001b[39;00mx.shape\u001b[38;5;132;01m}\u001b[39;00m\u001b[33m and \u001b[39m\u001b[38;5;132;01m{\u001b[39;00my.shape\u001b[38;5;132;01m}\u001b[39;00m\u001b[33m\"\u001b[39m)\n\n\u001b[31mValueError\u001b[39m: x and y must have same first dimension, but have shapes (999,) and (1000,)\n\n"
             }
         },
         {
@@ -490,56 +2542,262 @@
             "path": "/texts/course/2. Calculus/2. Integrals/2. Integral is Antiderivative Proof/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
             }
         },
         {
             "path": "/texts/course/2. Calculus/2. Integrals/3. Integration by Parts Proof/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
             }
         },
         {
             "path": "/texts/course/2. Calculus/2. Integrals/4. Approximate Integral Calculation (Rectangles)/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                ]
             }
         },
         {
             "path": "/texts/course/2. Calculus/2. Integrals/5. Approximate Integral Calculation (Trapezoids)/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
             }
         },
         {
             "path": "/texts/course/2. Calculus/2. Integrals/6. Integrals Practice/config.yml",
             "status": {
-                "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 6,
+                "total": 20,
+                "testStatus": [
+                    {
+                        "name": "root -> integrals -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> integrals -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> integrals -> 2",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.36424164293121636"
+                    },
+                    {
+                        "name": "root -> integrals -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> integrals -> 4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> integrals -> 5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> integrals -> 6",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> integrals -> 7",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> integrals -> 8",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> integrals -> 9",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> squares -> 0",
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 111.42222222222222,'\n                    that is larger than eps (0.0001)"
+                    },
+                    {
+                        "name": "root -> squares -> 1",
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 2524.316780978509,'\n                    that is larger than eps (0.0001)"
+                    },
+                    {
+                        "name": "root -> squares -> 2",
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.658713766282851,'\n                    that is larger than eps (0.0001)"
+                    },
+                    {
+                        "name": "root -> squares -> 3",
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 15921041563.925516,'\n                    that is larger than eps (0.0001)"
+                    },
+                    {
+                        "name": "root -> squares -> 4",
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 12.694294504102755,'\n                    that is larger than eps (0.0001)"
+                    },
+                    {
+                        "name": "root -> squares -> 5",
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.154426253900134,'\n                    that is larger than eps (0.0001)"
+                    },
+                    {
+                        "name": "root -> squares -> 6",
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 82.56978675137077,'\n                    that is larger than eps (0.0001)"
+                    },
+                    {
+                        "name": "root -> squares -> 7",
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 527.7813849111593,'\n                    that is larger than eps (0.0001)"
+                    },
+                    {
+                        "name": "root -> squares -> 8",
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 47.80500701555062,'\n                    that is larger than eps (0.0001)"
+                    },
+                    {
+                        "name": "root -> squares -> 9",
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 3.787179360122768,'\n                    that is larger than eps (0.0001)"
+                    },
+                    {
+                        "name": "root -> trapezoids -> 0",
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 111.42222222222222,'\n                    that is larger than eps (0.0001)"
+                    },
+                    {
+                        "name": "root -> trapezoids -> 1",
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 2524.316780978509,'\n                    that is larger than eps (0.0001)"
+                    },
+                    {
+                        "name": "root -> trapezoids -> 2",
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.658713766282851,'\n                    that is larger than eps (0.0001)"
+                    },
+                    {
+                        "name": "root -> trapezoids -> 3",
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 15921041563.925516,'\n                    that is larger than eps (0.0001)"
+                    },
+                    {
+                        "name": "root -> trapezoids -> 4",
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 12.694294504102755,'\n                    that is larger than eps (0.0001)"
+                    },
+                    {
+                        "name": "root -> trapezoids -> 5",
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.154426253900134,'\n                    that is larger than eps (0.0001)"
+                    },
+                    {
+                        "name": "root -> trapezoids -> 6",
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 82.56978675137077,'\n                    that is larger than eps (0.0001)"
+                    },
+                    {
+                        "name": "root -> trapezoids -> 7",
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 527.7813849111593,'\n                    that is larger than eps (0.0001)"
+                    },
+                    {
+                        "name": "root -> trapezoids -> 8",
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 47.80500701555062,'\n                    that is larger than eps (0.0001)"
+                    },
+                    {
+                        "name": "root -> trapezoids -> 9",
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 3.787179360122768,'\n                    that is larger than eps (0.0001)"
+                    }
+                ]
             }
         },
         {
             "path": "/texts/course/3. Probability and Statistics/1. Linearity of Expectance/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ]
             }
         },
         {
             "path": "/texts/course/3. Probability and Statistics/2. Variance of Sum/config.yml",
             "status": {
-                "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "total": 2,
+                "correct": 2,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                ]
             }
         },
         {
